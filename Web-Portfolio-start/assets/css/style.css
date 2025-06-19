@@ -157,8 +157,18 @@ nav ul li {
   margin-bottom: 1rem;
 }
 
-.skills-wrapper img {
-  padding: 1.25rem;
+.first-set {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  
+}
+.skills-wrap {
+  padding: 10px;
+  text-wrap: wrap;
+  max-width: 25ch;
+  flex: 1;
+  
 }
 
 .icon {
@@ -291,6 +301,7 @@ nav ul li {
   position: fixed;
   right: 1%;
   bottom: 50%;
+  background-color: transparent;
 }
 
 .socicon {
