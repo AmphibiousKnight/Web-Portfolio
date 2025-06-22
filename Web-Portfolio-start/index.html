@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!--Icons-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu" />
+    
+    <!-- Favicons -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/icons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/icons/favicon-32x32.png"
+    />
+
+    <!-- Animate CSS CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <title>Caleb Kavangh | Software Developer</title>
+
+</head>
+<body>
+    <!--Navbar-->
+    <nav>
+        <h1>Caleb Kavanagh</h1>
+        <ul class="navigation">
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <button class="burger-menu" id="burger-menu">
+            <span class="material-symbols-outlined">
+            menu
+            </span>
+        </button>
+
+    </nav>
+
+    <!--Hero section-->
+    <section class="hero" id="about">
+        <img
+            src="assets/images/HeroImage.svg"
+            alt="jane-doe"
+            loading="lazy"
+            class="hero-img"
+        />
+        <div class="bio animate__animated animate__shakeX">
+            <h2 class="bio-title">About Me</h2>
+            <p class="bio-text">
+                I am currently a college student studying T Level Software Development.
+                I have a passion for problem solving that has been cultivated from a 
+                very young age and love all things tech. Every day I strive to learn something
+                new and expand my current knowledge and worldview
+            </p>
+        </div>
+    </section>
+    
+    <!--More about-->
+    <section class="more-about">
+      <h2>More About Me</h2>
+      <h3>
+        Developing My Love Of Tech
+      </h3>
+      <p>
+        I have grown up with a passion for tech instilled within me. There were
+        a multitude of people in my life encouraging this but one of the most 
+        influential figure to me was my uncle. As he himself has been into technology
+      </p>
+      <p>
+        Alongside beginning my college course I started an online python course on
+        W3Schools to ensure that I could not only keep up with what was required of me
+        but also excel and advance beyond the minimum that was asked of me.
+      </p>
+    </section>
+
+    <!--Skills section-->
+     <section class="skills" id="skills">
+      <h2 class="skill-header">My Top Skills</h2>
+
+      <div class="skills-wrapper">
+        <div class="first-set">
+          <div class="skills-wrap">
+            <h3>
+              Python
+            </h3>
+            <p>
+              Ever since beginning my college course I have begun to learn Python
+              as my first coding language. I have created multiple projects and am 
+              quite competent with a plethora of modules and techniques.
+            </p>
+          </div>
+          <div class="skills-wrap">
+            <h3>
+              HTML
+            </h3>
+            <p>
+              I also learnt HTML during the end of my first year at college. One project
+              I created using HTML is this very web portfolio
+            </p>
+          </div>
+          <div class="skills-wrap">
+            <h3>
+              CSS
+            </h3>
+            <p>
+              Similarly to HTML I learnt this language towards the end of my first year at
+              college and used it to make this  web portfolio
+            </p>
+          </div>
+        </div>
+
+
+    <!--Projects section-->
+    <section class="projects" id="projects">
+      <h2 class="projects-title">Some of my Recent Projects</h2>
+      <div class="projects-container">
+        <div class="project-container project-card">
+          <h3 class="project-title">placeholder</h3>
+          <p class="project-details">
+          </p>
+          <a href="#" target="_blank" class="project-link">Check it Out</a>
+        </div>
+        <div class="project-container project-card">
+          <h3 class="project-title">placeholder</h3>
+          <p class="project-details">
+          </p>
+          <a href="#" target="_blank" class="project-link">Check it Out</a>
+        </div>
+        <div class="project-container project-card">
+          <h3 class="project-title">placeholder</h3>
+          <p class="project-details">
+          </p>
+          <a href="#" target="_blank" class="project-link">Check it Out</a>
+        </div>
+      </div>
+    </section>
+
+    <!--Contact section-->
+    <section class="contact" id="contact">
+      <h2>Get In Touch With Me</h2>
+      <div class="contact-form-container">
+        <div class="contact-form">
+          <form 
+            action="https://formspree.io/f/xyzjngkz"
+            method="POST"
+          >
+            <div class="form-control">
+              <label for="name">Name</label>
+              <input
+                type="text"
+                id="name"
+                name="sender-name"
+                placeholder="Enter Your Name"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Enter Your Email"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                cols="60"
+                rows="10"
+                placeholder="Enter Your Message"
+                name="message"
+                class="input-field"
+                required
+              ></textarea>
+            </div>
+            <input
+              type="submit"
+              value="Submit"
+              id="submit-btn"
+              class="submit-btn"
+            />
+          </form>
+        </div>
+      </div>
+      <div class="socials">
+      <a href="#" target="_blank"
+        ><img
+          src="assets/icons/icons8-linkedin-circled.gif"
+          alt="Linkedin"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="https://github.com/AmphibiousKnight" target="_blank"
+        ><img src="assets/icons/icons8-github.gif" alt="Github" class="socicon"
+      /></a>
+    </section>
+
+    <!--Scroll to top-->
+    <i class="scroll-up" id="scroll-up"
+      ><img
+        src="assets/icons/icons8-upward-arrow.gif"
+        class="socicon up-arrow"
+        alt="scroll-up"
+    /></i>
+    <!--Footer secton-->
+    <footer>
+        <p class="copy">&copy; Copyright 2021</p>
+        <p class="copy">
+            Built with &#x2661; by
+            <a href="https://twitter.com/koladechris" target="_blank"
+            >Caleb Kavanagh</a
+            >
+        </p>
+    </footer>
+
+    <!-- Ion icons scripts -->
+    <script
+        type="module"
+        src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+        nomodule
+        src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+</body>
+</html>
