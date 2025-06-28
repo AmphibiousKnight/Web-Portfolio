@@ -224,6 +224,10 @@ nav ul li {
   margin-bottom: var(--bottom-margin);
 }
 
+.poke-img {
+  width: 20rem;
+}
+
 .project-card {
   background-color: #fff;
   border-radius: 11px;
